@@ -2,25 +2,14 @@
 layout: default
 ---
 
-<div class="home">
+<div class="relative h-100 overflow-hidden-ns overflow-scroll">
 
-  <h1 class="page-heading">Posts</h1>
-  
-  {{ content }}
+  <h1 class="f-subheadline f-headline-ns">E. A. D. Pearce<br> Web Developer </h1>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+  <div class="f-subheadline static mt3 mt0-ns absolute-ns bottom-0-ns right-0-ns tr">
+    <a href="/work" class="db link gold hover-light-yellow grow" style="font-family: 'Abel', sans-serif;">Work</a>
+    <a href="/about" class="db link gold hover-light-yellow grow" style="font-family: 'Abel', sans-serif;">About</a>
+    <a href="/contact" class="db link gold hover-light-yellow grow" style="font-family: 'Abel', sans-serif;">Contact</a>
+  </div>
 
 </div>

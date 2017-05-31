@@ -1,10 +1,11 @@
-<header class="site-header" role="banner">
 
-  <div class="wrapper">
+<header class="static fixed-ns top-0-ns w-100 bg-black white ph2 pv3 ttu tracked">
+
+  <!-- <div class="wrapper">
     {% assign default_paths = site.pages | map: "path" %}
     {% assign page_paths = site.header_pages | default: default_paths %}
     <a class="site-title" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
-  
+
     {% if page_paths %}
       <nav class="site-nav">
         <input type="checkbox" id="nav-trigger" class="nav-trigger" />
@@ -28,5 +29,9 @@
         </div>
       </nav>
     {% endif %}
-  </div>
+  </div> -->
+
+  <!-- {% assign default_paths = site.pages | map: "path" %}
+  {% assign page_paths = site.header_pages | default: default_paths %} -->
+  <a class="f5 no-underline white" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
 </header>

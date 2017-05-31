@@ -1,20 +1,23 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
+<link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
 
-  {% include head.html %}
+{% include head.html %}
 
-  <body>
+<body class="overflow-hidden overflow-auto-ns vh-100 light-gray cover" style="background: url('http://i1.kym-cdn.com/entries/icons/original/000/003/458/space_arp.jpg'); no-repeat center center; background-attachment: fixed; background-color: #aaa; background-blend-mode: multiply;">
 
-    {% include header.html %}
+  {% include header.html %}
 
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
+  <section class="h-100 dt-ns w-100">
+    <div class="h-100 dtc-ns v-mid-ns" aria-label="Content">
+      <div class="ph2 ph0-ns h-100 w-100 center h-50-ns w-50-ns bg-black center overflow-scroll">
         {{ content }}
       </div>
-    </main>
+    </div>
+  </section>
 
-    {% include footer.html %}
+  {% include footer.html %}
 
-  </body>
+</body>
 
 </html>
