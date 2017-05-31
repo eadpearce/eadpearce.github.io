@@ -31,7 +31,7 @@
  */
 /* Document
    ========================================================================== */
-html { font-family: sans-serif; /* 1 */ line-height: 1.15; /* 2 */ -ms-text-size-adjust: 100%; /* 3 */ -webkit-text-size-adjust: 100%; /* 3 */ }
+html { font-family: 'Helvetica-Neue', Helvetica, sans-serif; /* 1 */ line-height: 1.15; /* 2 */ -ms-text-size-adjust: 100%; /* 3 */ -webkit-text-size-adjust: 100%; /* 3 */ }
 /* Sections
    ========================================================================== */
 /**
@@ -46,7 +46,7 @@ article, aside, footer, header, nav, section { display: block; }
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
  */
-h1 { font-size: 2em; margin: .67em 0; }
+// h1 { font-size: 2em; margin: .67em 0; }
 /* Grouping content
    ========================================================================== */
 /**
@@ -876,6 +876,8 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .h-50 { height: 50%; }
 .h-75 { height: 75%; }
 .h-100 { height: 100%; }
+.min-h-50 { min-height: 50%; }
+.min-h-75 { min-height: 75%; }
 .min-h-100 { min-height: 100%; }
 /* Screen Height Percentage */
 .vh-25 { height: 25vh; }
@@ -1772,6 +1774,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
  * These generally are too large for mobile
  * so be careful using them on smaller screens.
  * */
+.f-7, .f-superheadline { font-size: 6.75rem; }
 .f-6, .f-headline { font-size: 6rem; }
 .f-5, .f-subheadline { font-size: 5rem; }
 /* Type Scale */
@@ -2461,6 +2464,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .ttl-ns { text-transform: lowercase; }
  .ttu-ns { text-transform: uppercase; }
  .ttn-ns { text-transform: none; }
+ .f-7-ns, .f-superheadline-ns { font-size: 6.75rem; }
  .f-6-ns, .f-headline-ns { font-size: 6rem; }
  .f-5-ns, .f-subheadline-ns { font-size: 5rem; }
  .f1-ns { font-size: 3rem; }
@@ -2873,6 +2877,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .ttl-m { text-transform: lowercase; }
  .ttu-m { text-transform: uppercase; }
  .ttn-m { text-transform: none; }
+ .f-7-m, .f-superheadline-m { font-size: 6.75rem; }
  .f-6-m, .f-headline-m { font-size: 6rem; }
  .f-5-m, .f-subheadline-m { font-size: 5rem; }
  .f1-m { font-size: 3rem; }
@@ -3285,6 +3290,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .ttl-l { text-transform: lowercase; }
  .ttu-l { text-transform: uppercase; }
  .ttn-l { text-transform: none; }
+ .f-7-l, .f-superheadline-l { font-size: 6.75rem; }
  .f-6-l, .f-headline-l { font-size: 6rem; }
  .f-5-l, .f-subheadline-l { font-size: 5rem; }
  .f1-l { font-size: 3rem; }

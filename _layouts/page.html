@@ -1,14 +1,18 @@
 ---
 layout: default
 ---
-<article>
+<article class="relative h-100 overflow-hidden">
 
   <header>
-    <h1>{{ page.title | escape }}</h1>
+    <h1 class="f-headline tracked-tight mb3">{{ page.title | escape }}</h1>
   </header>
 
-  <div>
+  <div class="entry lh-copy f3">
     {{ content }}
+  </div>
+
+  <div class="f-subheadline static mt3 mt0-ns absolute-ns bottom-0-ns right-0-ns tr">
+    <a class="db link gold hover-light-yellow grow" style="font-family: 'Abel', sans-serif;" href="/">Back</a>
   </div>
 
 </article>
