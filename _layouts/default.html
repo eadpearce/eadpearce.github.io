@@ -4,13 +4,19 @@
 
 {% include head.html %}
 
-<body class="overflow-hidden overflow-auto-ns vh-100 light-gray cover" style="background: url('http://i1.kym-cdn.com/entries/icons/original/000/003/458/space_arp.jpg'); no-repeat center center; background-attachment: fixed; background-color: #aaa; background-blend-mode: multiply;">
+<body class="overflow-hidden overflow-auto-ns vh-100 light-gray cover"
+  style="background: url('http://i1.kym-cdn.com/entries/icons/original/000/003/458/space_arp.jpg');
+  background-repeat:
+  no-repeat;
+  background-position: center center;
+  background-color: #aaa;
+  background-blend-mode: multiply;">
 
   {% include header.html %}
 
   <section class="h-100 dt-ns w-100">
     <div class="h-100 dtc-ns v-mid-ns" aria-label="Content">
-      <div class="ph2 ph0-ns h-100 w-100 center h-50-ns w-50-ns bg-black center overflow-scroll">
+      <div class="ph2 ph0-ns h-100 w-100 center h-50-ns w-75-m w-50-l bg-black center overflow-scroll">
         {{ content }}
       </div>
     </div>
