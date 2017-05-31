@@ -1,20 +1,23 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
-  {% include head.html %}
+{% include head.html %}
 
-  <body>
+<body class="vh-100 bg-black-30 light-gray" style="background: url('http://i1.kym-cdn.com/entries/icons/original/000/003/458/space_arp.jpg'); no-repeat center center; background-size: cover; background-color: #888; background-blend-mode: multiply;">
 
-    {% include header.html %}
-
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
+  {% include header.html %}
+  <section class="h-100 dt w-100">
+    <div class="dtc v-mid" aria-label="Content">
+      <div class="w-100 w-75-m w-50-l bg-red center">
         {{ content }}
       </div>
-    </main>
+    </div>
+  </section>
 
+  <footer class="bottom-0 w-100">
     {% include footer.html %}
+  </footer>
 
-  </body>
+</body>
 
 </html>
