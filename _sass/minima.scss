@@ -1,11 +1,10 @@
 @charset "utf-8";
-
 // Import partials.
-@import 'helpers/reset.scss';
 @import 'helpers/tachyons';
+@import 'helpers/fonts';
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Abel', sans-serif;
+  font-family: 'printbold', 'Helvetica Neue', Helvetica, sans-serif;
   font-weight:  bold;
 }
 .entry {
@@ -13,8 +12,4 @@ h1, h2, h3, h4, h5, h6 {
   text-align: justify;
   }
 }
-a { color: #ffb700; text-decoration: none; -webkit-transition: color .15s ease-in; transition: color .15s ease-in; }
-a, a:visited { -webkit-transition: color .15s ease-in; transition: color .15s ease-in; }
-a:hover { color: #fbf1a9; -webkit-transition: color .15s ease-in; transition: color .15s ease-in; }
-a:active { -webkit-transition: color .15s ease-in; transition: color .15s ease-in; }
-a:focus { color: #fbf1a9; -webkit-transition: color .15s ease-in; transition: color .15s ease-in; }
+a { color: #ccc; text-decoration: none; -webkit-transition: color .15s ease-in; transition: color .15s ease-in; }

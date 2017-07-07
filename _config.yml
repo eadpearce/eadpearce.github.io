@@ -32,3 +32,8 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+assets:
+  sources:
+    - _assets
+    - _assets/images
+    - _assets/fonts
