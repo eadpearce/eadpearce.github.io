@@ -7,11 +7,8 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'printbold', 'Helvetica Neue', Helvetica, sans-serif;
   font-weight:  bold;
 }
-.entry {
-  p {
-  text-align: justify;
-  }
-}
+.entry { p { text-align: justify; }}
+.nav:hover { color: #bbeeff; }
 a { color: #bbeeff; text-decoration: none; -webkit-transition: color .15s ease-in; transition: color .15s ease-in; }
 .work-tile:hover {
   background-blend-mode: difference;
