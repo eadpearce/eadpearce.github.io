@@ -12,4 +12,26 @@ h1, h2, h3, h4, h5, h6 {
   text-align: justify;
   }
 }
-a { color: #ccc; text-decoration: none; -webkit-transition: color .15s ease-in; transition: color .15s ease-in; }
+a { color: #bbeeff; text-decoration: none; -webkit-transition: color .15s ease-in; transition: color .15s ease-in; }
+.work-tile:hover {
+  background-blend-mode: difference;
+  transition: all .2s ease;
+}
+.work-tile {
+  background-blend-mode: multiply;
+  transition: all .2s ease;
+}
+.arrow {
+	-webkit-animation: flash linear 1.5s infinite;
+	animation: flash linear 1.5s infinite;
+}
+@-webkit-keyframes flash {
+	0% { opacity: 1; }
+	50% { opacity: .1; }
+	100% { opacity: 1; }
+}
+@keyframes flash {
+	0% { opacity: 1; }
+	50% { opacity: .1; }
+	100% { opacity: 1; }
+}

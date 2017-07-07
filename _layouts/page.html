@@ -1,18 +1,15 @@
 ---
 layout: default
 ---
-<article class="relative h-100 overflow-hidden">
+<section class="w-100 vh-100 dt white">
+  <div class="dtc v-mid">
+    <h1 style="font-family: 'printclearly'" class="f1 ttu tracked">{{ page.title | escape }}</h1>
+    <div class="entry lh-copy f4">
+      {{ content }}
+    </div>
+    <div class="tr w-100">
+      <a class="f4" href="/#work">Back</a>
+    </div>
 
-  <header>
-    <h1 class="f-headline tracked-tight mb3">{{ page.title | escape }}</h1>
-  </header>
-
-  <div class="entry lh-copy f3">
-    {{ content }}
   </div>
-
-  <div class="f-subheadline static mt4 mt0-ns absolute-ns bottom-0-ns right-0-ns tr">
-    <a class="db link gold hover-light-yellow grow" style="font-family: 'Abel', sans-serif;" href="/">Back</a>
-  </div>
-
-</article>
+</section>
