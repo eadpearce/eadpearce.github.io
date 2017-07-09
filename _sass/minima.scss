@@ -9,7 +9,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 .entry { p { text-align: justify; }}
 .nav:hover { color: #bbeeff; }
-a { color: #bbeeff; text-decoration: none; -webkit-transition: color .15s ease-in; transition: color .15s ease-in; }
+a { color: #fff; -webkit-transition: color .15s ease-in; transition: color .15s ease-in; }
+a:hover { color: #bbeeff }
 .work-tile:hover {
   background-blend-mode: difference;
   transition: all .2s ease;
