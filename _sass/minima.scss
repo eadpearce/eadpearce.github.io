@@ -20,6 +20,7 @@ a:hover { color: #bbeeff }
   transition: all .2s ease;
 }
 .arrow {
+  z-index: -1;
 	-webkit-animation: flash linear 1.5s infinite;
 	animation: flash linear 1.5s infinite;
 }
