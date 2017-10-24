@@ -9,4 +9,4 @@ A live version of the site can be found [here](https://cryptic-waters-59869.hero
 
 The code can be found [here](https://github.com/eadpearce/wdi-project-2) on GitHub
 
-An new WIP made with Ruby on Rails and React can be found [here](https://github.com/eadpearce/xivb) on GitHub
+A new WIP made with Ruby on Rails and React can be found [here](https://github.com/eadpearce/xivb) on GitHub
